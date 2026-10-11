@@ -27,3 +27,5 @@ jobs:
     steps:
       - name: say goodbye
         run: echo "Hello from job2"
+      - name: what files are here?
+        run: ls -la
